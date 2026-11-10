@@ -1,0 +1,63 @@
+FAIRE-PART DE THIERRY & GRÂCE : site prêt à mettre en ligne
+============================================================
+
+CONTENU DU DOSSIER
+  index.html    la page complète (textes, couleurs et code sont dedans)
+  img/          les 4 photos
+  apercu.jpg    l'image qui s'affiche quand le lien est envoyé sur WhatsApp
+
+Pour essayer chez vous : double-cliquez sur index.html. Les polices d'écriture
+ne s'affichent qu'avec une connexion Internet.
+
+
+1) METTRE LE SITE EN LIGNE
+--------------------------
+Il suffit d'envoyer ce dossier complet (index.html, img et apercu.jpg) chez un
+hébergeur de pages web. Trois options qui proposent une formule gratuite
+(vérifiez leurs conditions du moment) :
+
+  - Netlify Drop : ouvrez app.netlify.com/drop et glissez-y le dossier entier.
+    Vous obtenez tout de suite une adresse du type  nom-choisi.netlify.app
+  - Cloudflare Pages : créez un projet et choisissez « Upload assets ».
+  - GitHub Pages : il faut un compte GitHub et un dépôt contenant ces fichiers.
+
+NOM DE DOMAINE (facultatif) : pour une adresse comme thierry-et-grace.com,
+réservez le nom chez un revendeur de noms de domaine, puis reliez-le au site
+dans les réglages de l'hébergeur choisi. C'est payant et renouvelable chaque année.
+
+
+2) À FAIRE UNE FOIS L'ADRESSE CONNUE
+------------------------------------
+Ouvrez index.html avec un éditeur de texte (Bloc-notes, TextEdit, VS Code) et
+remplacez  VOTRE-DOMAINE.com  par votre vraie adresse, partout où le texte
+apparaît, par exemple  https://thierry-et-grace.com  (sans « / » à la fin).
+Sans cela, WhatsApp n'affichera pas la photo d'aperçu sous le lien.
+WhatsApp garde l'aperçu en mémoire un moment : testez avec un lien jamais envoyé.
+
+
+3) MODIFIER UN DÉTAIL (cherchez le texte indiqué dans index.html)
+-----------------------------------------------------------------
+  Numéro WhatsApp qui reçoit les réponses :
+      var WHATSAPP = "237677136741";
+      (format international, sans « + » ni espaces)
+
+  Date et heure du compte à rebours :
+      new Date("2026-12-12T09:30:00+01:00")
+
+  Horaires et lieux : section « Ordre des événements ».
+  Heures de fin de l'agenda (11h30 et minuit par défaut) : paramètre « dates= »
+  dans les deux liens « Ajouter à mon agenda ».
+
+  Lien personnalisé pour un invité : adresse du site + # + son nom, sans accents.
+      https://thierry-et-grace.com/#famille-mballa
+  affiche « Famille Mballa, Thierry et Grâce vous invitent… » et préremplit
+  son nom dans le formulaire.
+
+
+4) LES RÉPONSES
+---------------
+Les invités envoient leur réponse par WhatsApp vers le numéro ci-dessus : il
+n'y a pas de liste automatique, les messages arrivent dans la conversation.
+
+
+Photos : Air Force Studio.
